@@ -1,0 +1,124 @@
+.main{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background: linear-gradient(180deg, #051625 0%, #132B41 49.48%, #051320 100%);
+}
+
+.sub-main{
+  display: flex;
+  background-color: #F7F0FF;
+  
+  justify-content: center;
+  height: 800px;
+  width: 737px;
+  box-shadow: 3px 4px 5px 4px rgba(160, 68, 68, 0.645);
+  padding-top: 40px;
+  border-radius: 20px;
+  
+}
+
+.titleCodeConnect {
+  margin: top;
+}
+
+.firstName{
+  position: absolute;
+  top: 35%;
+  left: 33.5%;
+  width: 240px;
+  height: 24px;
+
+  /* Components/Input Text */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.15px;
+
+  /* Light/Text/Primary */
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.lastName{
+  position: absolute;
+  top: 35%;
+  left: 53%;
+  width: 240px;
+  height: 24px;
+
+  /* Components/Input Text */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.15px;
+
+  /* Light/Text/Primary */
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.email{
+  position: absolute;
+  top: 45%;
+  left: 33.5%;
+  width: 575px;
+  height: 24px;
+
+  /* Components/Input Text */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.15px;
+
+  /* Light/Text/Primary */
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.password{
+  position: absolute;
+  margin-top: 23%;
+  margin-left: -18%;
+  width: 575px;
+  height: 24px;
+
+  /* Components/Input Text */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.15px;
+
+  /* Light/Text/Primary */
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}

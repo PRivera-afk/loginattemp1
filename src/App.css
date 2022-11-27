@@ -1,38 +1,111 @@
-.App {
+.main {
   text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background: linear-gradient(180deg, #051625 0%, #132b41 49.48%, #051320 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-main {
+  display: absolute;
+  width: 737px;
+  height: 876px;
+  left: 409px;
+  top: 60px;
+
+  background: #f7f0ff;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.codeConnectLogo {
+  position: fixed;
+  text-align: center;
+  width: 13%;
+  height: 9%;
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titleCodeConnect {
+  position: absolute;
+  width: 258px;
+  height: 85px;
+  left: 670px;
+  top: 97px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.userHasAccount {
+  position: absolute;
+  margin-top: 43%;
+  margin-left: -15%;
+  font-style: "Roboto";
+}
+
+.boxName {
+  /* Auto layout */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+
+  position: absolute;
+  width: 220px;
+  height: 48px;
+  left: 512px;
+  top: 227px;
 }
 
-.App-link {
-  color: #61dafb;
+.boxLastName {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+
+  position: absolute;
+  width: 220px;
+  height: 48px;
+  left: 812px;
+  top: 227px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxGmail {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+
+  position: absolute;
+  width: 520px;
+  height: 48px;
+  left: 512px;
+  top: 297px;
+}
+
+.boxPassword {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+
+  position: absolute;
+  width: 520px;
+  height: 48px;
+  left: 512px;
+  top: 367px;
 }
